@@ -1,7 +1,7 @@
 'use strict';
 
 // Where is our schema defined?
-const CategoryModel = 
+const CategoryModel = require('./categories-schema');
 // How do we get it in here so we can run methods on it?
 
 class Categories {
@@ -16,14 +16,9 @@ class Categories {
     // If 2, return it as an object like this:
     // { count: ##, results: [{}, {}] }
     if(_id){
-      categoryModel.findById(_id, function (err, category){
-        if (err) {
-          console.error(err)
-          return
-        }
-      //  categoryModel.findById(_id, function (err, category){
-      })
+      return CategoryModel.findById({_id});
     }
+    return CategoryModel.find({});
   }
 
   create(record) {

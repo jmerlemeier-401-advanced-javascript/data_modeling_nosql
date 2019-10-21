@@ -1,0 +1,29 @@
+{
+  "name": "data_modeling_nosql",
+  "version": "1.0.0",
+  "description": "JS401 Lab-05",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmerlemeier-401-advanced-javascript/data_modeling_nosql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmerlemeier-401-advanced-javascript/data_modeling_nosql/issues"
+  },
+  "homepage": "https://github.com/jmerlemeier-401-advanced-javascript/data_modeling_nosql#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "mongoose": "^5.7.5",
+    "uuid": "^3.3.3"
+  }
+}
